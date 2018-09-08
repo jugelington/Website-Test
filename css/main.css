@@ -1,0 +1,44 @@
+body {
+    color: goldenrod;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+img {
+    z-index: -1;
+    width: 100%;
+    padding: 0 auto;
+    border-top: 2px goldenrod double;
+    margin: -10px;
+}
+
+header {
+    position: absolute;
+    top: 1vw;
+    left: 10vw;
+
+}
+
+header h1 {
+    font-size: 20vw;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 10vw;
+    margin: 0;
+}
+
+header p {
+    font-size: 5vw;
+}
+
+.devicons {
+    position: absolute;
+    top: 80vw;
+    left: 10vw
+}
+
+.devicons i {
+    font-size: 20vw;
+    letter-spacing: 5vw;
+}
