@@ -1,6 +1,7 @@
 body {
     color: goldenrod;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-family: 'Playfair Display', serif;
 }
 
 img {
@@ -29,16 +30,42 @@ header h2 {
 }
 
 header p {
-    font-size: 5vw;
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 6vw;}
+
+header .a {
+    margin-top: 1vw;
 }
 
+.statement {
+    position: absolute;
+    top: 60vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+    font-size: 10vw;
+    font-style: italic;
+}
 .devicons {
     position: absolute;
-    top: 80vw;
-    left: 10vw
+    top: 140vw;
+    left: 15vw;
 }
 
 .devicons i {
     font-size: 20vw;
     letter-spacing: 5vw;
+}
+
+footer {
+    position: absolute;
+    top: 190vw;
+    left: 30vw;
+}
+
+footer img {
+    width: 60%;
+    border-radius: 365px;
+    border: 1vw goldenrod solid;
 }
